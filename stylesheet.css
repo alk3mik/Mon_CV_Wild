@@ -1,0 +1,29 @@
+/*
+    Tags HTML
+*/
+
+/* Initialisation de la racine DOM */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+*, *:after, *:before {
+    box-sizing: border-border;
+}
+
+/*
+    IDs declaration
+*/
+
+/*
+    Classes declaration
+*/
+
+/* Main centered website wrapper */
