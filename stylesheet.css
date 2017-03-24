@@ -55,7 +55,7 @@ div#header h1 {
    /* text-align: center; */
 }
 
-h2 {
+div#left-box h2 {
     font-size: 1em;
     margin-left: 20px;
 }
@@ -66,10 +66,11 @@ h2 {
     float: left;
     width: 28%;
     height: 92%;
-    margin: 20px ;
+    margin: 5px ;
     padding: 25px 0 0 0;
     border: 3px solid grey;
     text-align: left;
+    border-radius: 15px;
 }
 
 #picOfMe {
@@ -82,22 +83,53 @@ h2 {
 }
 
 /* The "em" unit correspond to em times the actual font-size */
-#description, #persoDetails, #languages{
+p#description, ul#persoDetails, ul#languages, ul#loisirs{
     margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
+    text-align: left;
     font-size: 0.8em
 }
 
 #right-box {
     background-color: rgb(9, 30, 45);
     float: right;
-    width: 60%;
+    width: 68%;
     height: 92%;
-    margin: 20px ;
+    margin: 5px ;
     padding: 25px 0 0 0;
     border: 3px solid grey;
+    text-align: left;
+    border-radius: 15px;
+}
+
+div#experiences-box {
+    border-radius: 15px;
+    width: 97%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div#right-box h2 {
+    font-size: 1.5em;
     text-align: center;
+}
+
+div#right-box h3 {
+    font-size: 1em;
+    margin-left: 5px;
+    text-align: left;
+}
+
+div#right-box h4 {
+    font-size: 0.9em;
+    margin-left: 5px;
+    text-align: left;
+}
+
+div#right-box p {
+    font-size: 0.8em;
+    margin-left: 5px;
+    text-align: left;
 }
 
 #experiences-box {
@@ -119,6 +151,7 @@ h2 {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 15px;
 }
 
 div#footer h1 {
@@ -127,6 +160,7 @@ div#footer h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 25px;
 }
 
 /*
