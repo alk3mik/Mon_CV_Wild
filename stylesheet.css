@@ -5,7 +5,7 @@
 /* Initialisation de la racine DOM */
 html, body {
     background-color: rgb(104, 187, 285);
-    width: 80%;
+    width: 85%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +47,7 @@ div#header h1 {
     width: 90%;
     height: 120%;
     margin: 20px;
-    padding: 25px 0 0 0;
+    padding: 5px 0 0 0;
     border: 3px solid grey;
     border-radius: 15px;
     margin-left: auto;
@@ -65,9 +65,9 @@ div#left-box h2 {
     color: white;
     float: left;
     width: 28%;
-    height: 92%;
+    height: 95%;
     margin: 5px ;
-    padding: 25px 0 0 0;
+    padding: 10px 0 0 0;
     border: 3px solid grey;
     text-align: left;
     border-radius: 15px;
@@ -83,20 +83,24 @@ div#left-box h2 {
 }
 
 /* The "em" unit correspond to em times the actual font-size */
-p#description, ul#persoDetails, ul#languages, ul#loisirs{
+p#description, ul#persoDetails, ul#languages, ul#loisirs {
     margin-left: 10px;
     margin-right: 10px;
-    text-align: left;
+    text-align: justify;
     font-size: 0.8em
+}
+
+ul#persoDetails, ul#languages, ul#loisirs {
+    text-align: left;
 }
 
 #right-box {
     background-color: rgb(9, 30, 45);
     float: right;
     width: 68%;
-    height: 92%;
+    height: 95%;
     margin: 5px ;
-    padding: 25px 0 0 0;
+    padding: 5px 0 0 0;
     border: 3px solid grey;
     text-align: left;
     border-radius: 15px;
@@ -104,9 +108,11 @@ p#description, ul#persoDetails, ul#languages, ul#loisirs{
 
 div#experiences-box {
     border-radius: 15px;
-    width: 97%;
+    width: 92%;
     margin-right: auto;
     margin-left: auto;
+
+    background-color: white;
 }
 
 div#right-box h2 {
@@ -116,27 +122,30 @@ div#right-box h2 {
 
 div#right-box h3 {
     font-size: 1em;
+    font-weight: bold;
     margin-left: 5px;
     text-align: left;
 }
 
 div#right-box h4 {
     font-size: 0.9em;
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
 }
 
 div#right-box p {
     font-size: 0.8em;
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
 }
 
-#experiences-box {
-    background-color: white;
-}
-
-#studies-box {
+div#studies-box {
+    border-radius: 15px;
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: white;
 }
 
