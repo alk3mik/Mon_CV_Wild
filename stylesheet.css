@@ -67,7 +67,7 @@ div#left-box h2 {
     width: 28%;
     height: 95%;
     margin: 5px ;
-    padding: 10px 0 0 0;
+    padding: 10px 0 10px 0;
     border: 3px solid grey;
     text-align: left;
     border-radius: 15px;
@@ -100,13 +100,13 @@ ul#persoDetails, ul#languages, ul#loisirs {
     width: 68%;
     height: 95%;
     margin: 5px ;
-    padding: 5px 0 0 0;
+    padding: 10px 0 10px 0;
     border: 3px solid grey;
-    text-align: left;
     border-radius: 15px;
 }
 
 div#experiences-box {
+    display: block;
     border-radius: 15px;
     width: 92%;
     margin-right: auto;
@@ -114,13 +114,13 @@ div#experiences-box {
     background-color: white;
 }
 
-div#experiences-box h2 {
+div#experiences-title h2 {
     font-size: 1.5em;
     text-align: center;
 }
 
 div.experience h2 {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: bold;
     margin-left: 5px;
     text-align: left;
@@ -133,12 +133,24 @@ div.experience p {
     text-align: left;
 }
 
+div#studies-title h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
 div#studies-box {
     border-radius: 15px;
     width: 92%;
     margin-right: auto;
     margin-left: auto;
     background-color: white;
+}
+
+div.study h2 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 5px;
+    text-align: left;
 }
 
 #footer {
